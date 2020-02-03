@@ -1,0 +1,4 @@
+
+
+INSERT INTO `labs`.`pedido` (`user`, `subject`, `idstate`, `hourstart`, `hourend`, `day`, `lab`, `motivo`) 
+VALUES ('franco3', 'AyEd', '2', '14:00', '15:00', 'Martes', '5', 'Parcial');

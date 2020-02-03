@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>719</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Reserva de Laboratorio</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reserva</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cancelar Reserva</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>711</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Horarios</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>711</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>130</number>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>08:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>09:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>11:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>12:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>13:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>14:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>15:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>16:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>17:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>18:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>19:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>20:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>21:00</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>22:00</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Lunes</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Martes</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Miercoles</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Jueves</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Viernes</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>360</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Lab 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lab 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lab 3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lab 4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lab 5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lab 6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lab 7</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lab 8</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>360</y>
+        <width>80</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Actualizar</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="title">
+      <string>Pedidos</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>711</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="showGrid">
+       <bool>true</bool>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::SolidLine</enum>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>117</number>
+      </attribute>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Dia</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Laboratorio</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Materia</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Hora Inicio</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Hora Fin</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Estado</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>360</y>
+        <width>121</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cancelar Reserva</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>360</y>
+        <width>80</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Actualizar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>360</y>
+        <width>121</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Aceptar Reserva</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
